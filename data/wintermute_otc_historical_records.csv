@@ -1,0 +1,4 @@
+id,fund,counterparty,underlying,position,size,strike,trade_date,expiry_at,days,premium_usd,premium_per_coin,notional_at_strike,premium_pct_of_notional,annualized_yield_pct,iv_pct,settlement_price,intrinsic_at_expiry_usd,net_pnl_usd,status
+WM-20261008-ETH-C2660,null,Wintermute,ETH,short call,100,2660,2026-10-08,2026-11-06 08:00:00+00,29,6040.00,60.40,266000,2.271,28.58,52.0,null,null,null,AWAITING SETTLEMENT PRICE
+WM-20261014-BTC-C85900-1114,Liquid SP I,Wintermute,BTC,short call,6,85900,2026-10-14,2026-11-14 08:00:00+00,31,10815.00,1802.50,515400,2.098,24.71,42.0,null,null,null,AWAITING SETTLEMENT PRICE
+WM-20261014-ETH-C2660-1114,Liquid SP I,Wintermute,ETH,short call,139,2660,2026-10-14,2026-11-14 08:00:00+00,31,7368.39,53.01,369740,1.993,23.46,55.0,null,null,null,AWAITING SETTLEMENT PRICE
