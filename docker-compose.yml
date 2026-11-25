@@ -1,0 +1,12 @@
+name: evernorth-audit
+
+services:
+  dashboard:
+    build: .
+    image: evernorth-audit-dashboard:latest
+    container_name: evernorth-audit-dashboard
+    ports:
+      - "${PORT:-8501}:8501"
+    volumes:
+      - ./data:/app/data:ro
+    restart: unless-stopped
